@@ -40,16 +40,7 @@
 			echo "Courriel conforme" . "<br>";
 		}
 	}
-	
-	if (empty($_POST['classe'])) { // Champs de la Classe
-			echo "Erreur de classe" . "<br>";
-		}
-		else {
-			echo "Classe conforme" . "<br>";
-		}
-
-		
-		
+			
 
 	if (!isset($_POST['choix[]'])){ //Choix d'Orientation 
 		foreach ($_POST['choix'] as $val){
